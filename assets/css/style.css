@@ -1,0 +1,172 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}   
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+.section-title{
+    margin-bottom: 5rem;
+}
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.hr-style{
+    /* background-color: white; */
+    border: 4px dotted black;
+    opacity: 1;
+    border-bottom: none;
+    width: 70px;
+    margin: auto;
+}
+.section-padding{
+    padding: 5rem 0rem;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* Header Start */
+header{
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0,0,0, 0.3);
+}
+.navbar-icon{
+    color: #fff;
+}
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+.nav-link{
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background-color: #2980b9;
+    color: #fff;
+    transform: scale(1.1);
+}
+.banner-container{
+    /* height: 100vh ; */
+}
+.banner-container h1{
+    size: 3.5rem;
+    background-color: rgba(7, 101, 189, 0.8);
+    padding: 10px 20px;
+    font-family: 'Handlee', cursive;
+    border-radius: 5px;
+}
+/* Header End */
+
+/* Features Start */
+#features{
+    padding: 5% 10%;
+    background: #e8ded2;
+}
+.features-col{
+    border: 1px solid #ff02c0 ;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0px;
+    transition: .4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+    background: #bb0aac;
+    color: #fff;
+    padding: 15px;
+    margin: 5px 0px;
+}
+/* Features End */
+/* About Me Start */
+#about-me{
+    background-color: #e8ded2 !important;
+}
+#about-me p{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: light;
+}
+#about-me a{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: black;
+    text-decoration: underline;
+}
+.basic-desc span{
+    font-weight: 700;
+    margin-right: 5px;
+}
+.achieve-desc p{
+    
+}
+.achieve-desc span{
+    font-weight: 700 !important;
+    margin-right: 5px;
+}
+.table-sub{
+    font-weight: 700;
+    text-align: left !important;
+}
+.star i{
+    width: 20px;
+    
+}
+/* About Me End */
+/* Tutorials Section Start */
+#tutorials-section{
+    background-color: lightblue !important;
+}
+/* Tutorials Section End */
+/* Feedback section start */
+#feedback{
+    background-color:rgb(68, 146, 146);
+}
+.chg-style{
+    border: 4px dotted white !important;
+    border-bottom: none !important;
+}
+.carousel-img{
+    width: 100px;
+    height: 100px;
+}
+.carousel-item{
+    padding: 0% 20%;
+    text-align: center;
+    color: white;
+}
+/* Feedback section end */
+
+/* Contact section start */
+#contact{
+    background-color: cadetblue;
+}
+/* Contact section end */
+/* Footer Section Start */
+footer{
+    background-color:darkslategray; 
+    padding: 3% 5%;
+}
+/* Footer Section End */
